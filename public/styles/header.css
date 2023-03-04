@@ -1,0 +1,17 @@
+/*
+The visible portion of the header should have a height of 400px and be 100% the width of its parent container
+The avatar should be centered vertically and horizontally (Hint: the justify-content and align-items properties are helpful for centering things if you're using Flexbox.)
+The name should be centered below the avatar
+The background-color should be a different colour than the nav and the body
+*/
+
+header {
+  height: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: peru;                                             
+  background-image: url("https://www.transparenttextures.com/patterns/cloth-alike.png");
+}
