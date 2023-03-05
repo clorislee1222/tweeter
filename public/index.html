@@ -24,13 +24,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <!-- App JS -->
-  <script type="text/javascript" src="/scripts/client.js"></script> 
+  <script type="text/javascript" src="/scripts/client.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://kit.fontawesome.com/c9a51618d0.css" crossorigin="anonymous">
 
 </head>
 
@@ -44,13 +44,13 @@
     </span>
   </nav>
 
-  <header>
+  <header class="header">
     <div>
       <img src="/images/profile-hex.png">
     </div>
     <br>
     <div>
-      <h2>Your Name</h2>
+      <h2>Cloris Li</h2>
     </div>
   </header>
 
@@ -66,6 +66,43 @@
           <output name="counter" class="counter" for="tweet-text">140</output>
         </div>
       </form>
+    </section>
+
+    <section id="tweet-container">
+      <article>
+        <header>
+          <p><i class="fa-solid fa-user"></i>&ensp;Newton</p>
+          <p id="username">@SirIsaac</p>
+        </header>
+        <div class="tweet-content">
+          If I have seen further it is by standing on the shoulders of gaints.
+        </div>
+        <footer>
+          <span>10 days ago</span>
+          <div>
+            <i class="fa-solid fa-flag"></i>&ensp;
+            <i class="fa-solid fa-retweet"></i>&ensp;
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </footer>
+      </article>
+      <article>
+        <header>
+          <p><i class="fa-solid fa-user"></i>&ensp;Newton</p>
+          <p id="username">@SirIsaac</p>
+        </header>
+        <div class="tweet-content">
+          If I have seen further it is by standing on the shoulders of gaints.
+        </div>
+        <footer>
+          <span>10 days ago</span>
+          <div>
+            <i class="fa-solid fa-flag"></i>&ensp;
+            <i class="fa-solid fa-retweet"></i>&ensp;
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </footer>
+      </article>
     </section>
   </main>
 </body>

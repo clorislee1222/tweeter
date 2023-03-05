@@ -7,8 +7,9 @@
   background-color: transparent;
   border-style: solid;
   border-width: 0px 0px 5px 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: bold;
+  outline: none;
 }
 
 .submit-tweet {
@@ -25,4 +26,8 @@
 .counter {
   font-family: 'Bungee';
   color: dimgray;
+}
+
+.counter.warning {
+  color: red;
 }

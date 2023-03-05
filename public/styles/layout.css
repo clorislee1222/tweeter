@@ -39,3 +39,47 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ #tweet-container article {
+  background-color: #f4f1ec;
+  border-style: solid;
+  border-width: 5px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#tweet-container article:hover {
+  box-shadow: 10px 10px lightslategray;
+}
+
+#tweet-container header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#username {
+  color: lightslategrey;
+}
+
+.tweet-content {
+  padding: 20px;
+}
+
+#tweet-container footer {
+  border-top: solid 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: smaller;
+}
+
+#tweet-container footer div {
+  color: #4056a1;
+}
+
+#tweet-container footer div i:hover {
+  color: goldenrod;
+}
