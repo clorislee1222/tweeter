@@ -17,7 +17,7 @@ html {
  * Global layout stuff
  */
 
- /* Tablet Styles */
+ /* Desktop Styles */
 @media only screen and (min-width: 1024px) {
   body {
     display: flex;
