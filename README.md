@@ -6,7 +6,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-
+!["screenshot of desktop view"](https://github.com/clorislee1222/tweeter/blob/master/doc/Desktop.PNG)
+!["screenshot of desktop view with error warning"](https://github.com/clorislee1222/tweeter/blob/master/doc/Desktop-warning.PNG)
+!["screenshot of default view"](https://github.com/clorislee1222/tweeter/blob/master/doc/Default.PNG)
+!["screenshot of default view with error warning and a loaded new tweet"](https://github.com/clorislee1222/tweeter/blob/master/doc/Desktop-warning.PNG)
 
 ## Getting Started
 
