@@ -1,11 +1,14 @@
+.new-tweet {
+  margin-top: 3rem;
+}
+
 .error {
   color: red;
   display: none;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
   border: solid 5px;
   padding: 10px;
-  margin: 10px;
 }
 
 .container form {

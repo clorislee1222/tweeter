@@ -8,7 +8,7 @@ Full width of the viewport
 */
 
 nav {
-  height: 120px;
+  height: 60px;
   width: 100%;
   background-color: #4056A1;
   color: #FFFFFF;
@@ -17,9 +17,6 @@ nav {
   align-items: center; 
   justify-content: space-between;
   position: fixed;
-}
-
-nav span { 
   font-family: 'Bungee', sans-serif;
 }
 

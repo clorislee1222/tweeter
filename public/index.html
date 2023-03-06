@@ -41,7 +41,7 @@
   <nav>
     <span>tweeter</span>
     <span class="nav-click">
-      <span class="new-tweet">Write a new tweet</span>
+      <span>Write a new tweet</span>
       <i class="fa-solid fa-angles-down"></i>
     </span>
   </nav>
@@ -50,18 +50,17 @@
     <div>
       <img src="/images/profile-hex.png">
     </div>
-    <br>
+
     <div>
       <h2>Cloris Li</h2>
     </div>
   </header>
 
-
   <!-- Page-specific (main) content here -->
   <main class="container">
     <section class="new-tweet">
       <div class="error"></div>
-      <h2>Compose Tweet</h2>
+      <h2></h2>
       <form id="submit" action="/tweets/" method="POST">
         <textarea name="text" class="textbox" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="submit-tweet">
