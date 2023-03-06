@@ -22,6 +22,7 @@
 
   <!-- External JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/client.js"></script>
@@ -32,6 +33,7 @@
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    
 </head>
 
 <body>
@@ -58,9 +60,10 @@
   <!-- Page-specific (main) content here -->
   <main class="container">
     <section class="new-tweet">
+      <div class="error"></div>
       <h2>Compose Tweet</h2>
-      <form action="/tweets/" method="POST">
-        <textarea name="text" class=textbox id="tweet-text" placeholder="What are you humming about?"></textarea>
+      <form id="submit" action="/tweets/" method="POST">
+        <textarea name="text" class="textbox" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="submit-tweet">
           <button type="submit" class="tweet-button">Tweet</button>
           <output name="counter" class="counter" for="tweet-text">140</output>
@@ -69,40 +72,6 @@
     </section>
 
     <section id="tweet-container">
-      <article>
-        <header>
-          <p><i class="fa-solid fa-user"></i>&ensp;Newton</p>
-          <p id="username">@SirIsaac</p>
-        </header>
-        <div class="tweet-content">
-          If I have seen further it is by standing on the shoulders of gaints.
-        </div>
-        <footer>
-          <span>10 days ago</span>
-          <div>
-            <i class="fa-solid fa-flag"></i>&ensp;
-            <i class="fa-solid fa-retweet"></i>&ensp;
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article>
-      <article>
-        <header>
-          <p><i class="fa-solid fa-user"></i>&ensp;Newton</p>
-          <p id="username">@SirIsaac</p>
-        </header>
-        <div class="tweet-content">
-          If I have seen further it is by standing on the shoulders of gaints.
-        </div>
-        <footer>
-          <span>10 days ago</span>
-          <div>
-            <i class="fa-solid fa-flag"></i>&ensp;
-            <i class="fa-solid fa-retweet"></i>&ensp;
-            <i class="fa-solid fa-heart"></i>
-          </div>
-        </footer>
-      </article>
     </section>
   </main>
 </body>
